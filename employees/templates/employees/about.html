@@ -1,0 +1,25 @@
+{% extends 'employees/base.html' %}
+
+{% block content %}
+<div class="card">
+    <div class="card-body">
+        <h1 class="card-title mb-4">About Employee Management System</h1>
+        <p class="card-text">
+            This is a simple employee management system built with Django and Bootstrap 5.
+            It allows you to manage employees and departments in your organization.
+        </p>
+        <p class="card-text">
+            <strong>Features include:</strong>
+        </p>
+        <ul class="list-group list-group-flush mb-4">
+            <li class="list-group-item">Add, edit, and delete employees</li>
+            <li class="list-group-item">View employee list with pagination</li>
+            <li class="list-group-item">Search functionality</li>
+            <li class="list-group-item">Department management</li>
+        </ul>
+        <div class="card-footer text-muted">
+            Built with Django 4.2 and Bootstrap 5
+        </div>
+    </div>
+</div>
+{% endblock %}
